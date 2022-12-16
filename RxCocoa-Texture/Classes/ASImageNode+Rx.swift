@@ -9,7 +9,7 @@ import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 
-extension Reactive where Base: ASImageNode {
+public extension Reactive where Base: ASImageNode {
 
     public var image: ASBinder<UIImage?> {
         

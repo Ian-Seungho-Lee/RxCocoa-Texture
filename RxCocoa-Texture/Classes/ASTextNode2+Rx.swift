@@ -11,7 +11,7 @@ import RxCocoa
 
 #if (!AS_ENABLE_TEXTNODE)
 
-extension Reactive where Base: ASTextNode2 {
+public extension Reactive where Base: ASTextNode2 {
     
     public var attributedText: ASBinder<NSAttributedString?> {
         

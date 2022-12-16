@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 
 // This should be only used from `MainScheduler`
-final class ASControlTarget<Control: ASControlNode>: _RXKVOObserver, Disposable {
+final public class ASControlTarget<Control: ASControlNode>: _RXKVOObserver, Disposable {
     
     typealias Callback = (Control) -> Void
     

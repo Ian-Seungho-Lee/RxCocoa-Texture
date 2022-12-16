@@ -9,7 +9,7 @@ import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 
-extension Reactive where Base: ASTextNode {
+public extension Reactive where Base: ASTextNode {
     
     public var attributedText: ASBinder<NSAttributedString?> {
         

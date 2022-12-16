@@ -9,7 +9,7 @@ import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 
-extension Reactive where Base: ASEditableTextNode {
+public extension Reactive where Base: ASEditableTextNode {
     
     public var delegate: DelegateProxy<ASEditableTextNode, ASEditableTextNodeDelegate> {
         return RxASEditableTextNodeDelegateProxy.proxy(for: base)
