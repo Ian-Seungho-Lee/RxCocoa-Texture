@@ -30,6 +30,14 @@ class ButtonTestNode: ASDisplayNode {
         super.init()
         
         // tap event (ref: RxCocoa UIButton+Rx)
+      buttonNode
+        .rx
+        .tap
+        .asDriver()
+        .drive { [weak self] in
+          
+        }.disposed(by: disposeBag)
+      
         buttonNode.rx.tap
             .subscribe()
             .disposed(by: disposeBag)

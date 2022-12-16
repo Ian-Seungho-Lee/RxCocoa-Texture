@@ -10,7 +10,7 @@ import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 
-extension Reactive where Base: ASControlNode {
+public extension Reactive where Base: ASControlNode {
     
     /// Reactive wrapper for target action pattern.
     ///
