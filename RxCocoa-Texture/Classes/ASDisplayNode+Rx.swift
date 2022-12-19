@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 import UIKit
 
-public extension Reactive where Base: ASDisplayNode {
+extension Reactive where Base: ASDisplayNode {
 
     public var alpha: ASBinder<CGFloat> {
         return ASBinder(self.base) { node, alpha in

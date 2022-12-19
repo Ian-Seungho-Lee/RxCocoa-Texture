@@ -9,7 +9,7 @@ import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 
-public extension Reactive where Base: ASNetworkImageNode {
+extension Reactive where Base: ASNetworkImageNode {
     
     public var url: ASBinder<URL?> {
         

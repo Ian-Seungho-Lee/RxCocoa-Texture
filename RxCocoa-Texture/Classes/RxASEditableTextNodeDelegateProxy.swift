@@ -9,7 +9,7 @@ import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 
-public extension ASEditableTextNode: HasDelegate {
+extension ASEditableTextNode: HasDelegate {
     public typealias Delegate = ASEditableTextNodeDelegate
 }
 

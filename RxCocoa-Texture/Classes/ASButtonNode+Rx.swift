@@ -20,7 +20,7 @@ import UIKit
  public static var selected: UIControlState { get } // flag usable by app (see below)
  **/
 
-public extension Reactive where Base: ASButtonNode {
+extension Reactive where Base: ASButtonNode {
     
     // apply attributedText on all control state
     public var attributedText: ASBinder<NSAttributedString?> {

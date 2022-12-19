@@ -16,7 +16,10 @@ let package = Package(
     // Dependencies declare other packages that this package depends on.
     // .package(url: /* package url */, from: "1.0.0"),
     .package(
-      url: "https://github.com/3a4oT/Texture.git", .upToNextMajor(from: "3.0.0")
+      url: "https://github.com/3a4oT/Texture.git", .upToNextMajor(from: "3.0.1")
+      // 3.1.0을 써야 하는딩
+      // carthage를 제공하게 하고...
+      //
     ),
     .package(
       url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.5.0")
